@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:buster-slim
 
 LABEL maintainer="Roh yeon jin(zacronan@naver.com)"
 RUN apt-get update && apt-get install -y nginx nginx-extras
